@@ -20,7 +20,7 @@ int main(void) {
     R.yMin = 0;
     R.yMax = 127;
 
-    Graphics_drawRectangle(&g_sContext, &R);
+    Graphics_fillRectangle(&g_sContext, &R);
     Graphics_drawLine(&g_sContext, 0, 0, 127, 127);
     Graphics_fillCircle(&g_sContext, 63, 63, 30);
 
